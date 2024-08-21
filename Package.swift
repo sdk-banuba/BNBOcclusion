@@ -1,7 +1,7 @@
 // swift-tools-version:5.3
 import PackageDescription
 
-let bnbPackageVersion: Version = "1.15.1-1-g11945c35fb"
+let bnbPackageVersion: Version = "1.14.1-105-gb559f9611"
 
 let package = Package(
     name: "BNBOcclusion",
@@ -41,8 +41,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "BNBOcclusion",
-            url: "https://d2cm7wtcqqw29.cloudfront.net/1.15.1-1-g11945c35fb/BNBOcclusion.zip",
-            checksum: "a9b41fa9ec425b98f336b0ff74423a0cb3bb3c2eb5b8474cdd4209461569c324"
+            url: "https://d2cm7wtcqqw29.cloudfront.net/1.14.1-105-gb559f9611/BNBOcclusion.zip",
+            checksum: "3c2985641b4673d1781a8b0c6c2d835ed65a1203e39ce566523796726d8f87da"
         ),
         .target(
             name: "BNBOcclusion_BNBSdkCore",
