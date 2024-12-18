@@ -42,7 +42,7 @@ let package = Package(
         .binaryTarget(
             name: "BNBOcclusion",
             url: "https://d2cm7wtcqqw29.cloudfront.net/1.16.3/BNBOcclusion.zip",
-            checksum: "f8d05740129db576e7595173d08edcf2365de5cf68d65cba8d737d503952457e"
+            checksum: "4c00a909746ed4b3ee368f531e7e17c09372e0d8fe2a99434c21216a04a95f60"
         ),
         .target(
             name: "BNBOcclusion_BNBSdkCore",
